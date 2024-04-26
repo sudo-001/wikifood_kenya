@@ -130,7 +130,7 @@ async function fetchFoods(sparqlQuery) {
 //         const cardHTML = `
 //             <div class="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg border hover:cursor-pointer transition-all hover:scale-105 h-96">
 //               <img class="object-fill object-center w-full h-60" src="${img}" alt="${name}">
-  
+
 //               <div class="px-4 py-2">
 //                 <h1 class="text-xl font-bold text-gray-800 uppercase ">${name}</h1>
 //                 <p class="mt-1 text-sm text-gray-600">${description}</p>
@@ -162,7 +162,7 @@ async function fetchFoods(sparqlQuery) {
 //         const cardHTML = `
 //             <div class="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg border hover:cursor-pointer transition-all hover:scale-105 h-96">
 //               <img class="object-fill object-center w-full h-60" src="${img}" alt="${name}">
-  
+
 //               <div class="px-4 py-2">
 //                 <h1 class="text-xl font-bold text-gray-800 uppercase ">${name}</h1>
 //                 <p class="mt-1 text-sm text-gray-600">${description}</p>
@@ -193,7 +193,7 @@ async function fetchFoods(sparqlQuery) {
 //         const cardHTML = `
 //             <div class="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg border hover:cursor-pointer transition-all hover:scale-105 h-96">
 //               <img class="object-fill object-center w-full h-60" src="${img}" alt="${name}">
-  
+
 //               <div class="px-4 py-2">
 //                 <h1 class="text-xl font-bold text-gray-800 uppercase ">${name}</h1>
 //                 <p class="mt-1 text-sm text-gray-600">${description}</p>
@@ -256,7 +256,7 @@ function openModal(name, image, description, ingredients, components) {
     document.getElementById("modal").classList.remove("hidden");
 }
 
-document.getElementById("closeModal").addEventListener("click", function() {
+document.getElementById("closeModal").addEventListener("click", function () {
     document.getElementById("modal").classList.add("hidden");
 });
 
